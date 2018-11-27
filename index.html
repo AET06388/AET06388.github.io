@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<META http-equiv="Content-Type" content="text/html;charset=ISO8859-1">
+<html>
+	<head>
+		<title>Andres Torres's Guide to Basic Circuitry</title>
+		<style type="text/css">
+		H2 { font-size:14pt }
+		P { font-size:12pt }
+		UL { color:#FF0000 ; font-size:10pt }
+		TD { text-align:center ; color:#000000 ; font-size:10pt ; padding-left:4px ; padding-right:4px ; 
+		padding-top:2px ; padding-bottom:2px }
+		TH { text-align:center ; color:#FFFFFF ; background-color:#000000 ; font-size:12pt }
+		A { text-align:center ; color:#2866D8 }
+		</style>
+	</head>
+	<body>
+		<h2>What is a circuit?</h2>
+		<p>A electrical circuit is a closed loop in which current flows. The average electronic device
+		(phone, computer, lightbulb, et cetera) draws power to function and would be useless otherwise.
+		Two main types of circuits exist: DC (Direct Current) and AC (Alternating Current).</p>
+		<ul>Direct current circuits have current only flowing in a single direction at any moment
+		in time. Current flows from the positive end of a resistor to the negative end (for those of you
+		familar with physics, this is the <i>opposite</i> of electron flow).</ul>
+		<ul>Alternating current may flow in either direction at a given point. The direction of current
+		in any particular moment is determined by the frequency of the voltage source.</ul>
+		<br>
+		<h2>Parts of a Circuit</h2>
+		<table border=1>
+			<tr>
+				<th>Component</th><th>Description</th><th>Example</th><th>Works in DC?</th>
+			</tr>
+			<tr>
+				<td>Voltage Source</td>
+				<td>Provides voltage/current to the circuit. <B>Required to make the circuit function!</B></td>
+				<td>Battery</td>
+				<td>Yes</td>
+			</tr>
+			<tr>
+				<td>Resistor</td>
+				<td>Draws power when current goes through it. <B>This is usually what you want powered!</B></td>
+				<td>Lightbulb</td>
+				<td>Yes</td>
+			</tr>
+			<tr>
+				<td>Capacitor</td>
+				<td>Stores and discharges voltage and helps regulate voltage of a circuit. <B>Blocks DC current!</B></td>
+				<td>Electrolytic capacitor</td>
+				<td>No</td>
+			</tr>
+			<tr>
+				<td>Inductor</td>
+				<td>Opposes any change in current in the circuit. Used to regulate current fluctuation and can be used
+				to block AC current.</td>
+				<td>Ferromagnetic-core inductor</td>
+				<td>Yes</td>
+			</tr>
+		</table>
+		<br>
+		<h2>What does a circuit look like?</h2>
+		<img src="circuit.png" alt="simple source-resistor circuit">
+		<p><div style="font-size:8pt">Picture provided courtesy of wikipedia's creative commons license</div>
+		Pictured above is a simple DC circuit containing a voltage source and a resistor. Current flows in the direction
+		of the arrow labeled <i>i</i>. The voltage produced by the source <i>v</i> is delivered to the resistor <i>R</i>.
+		This process repeats until the voltage source is unable to produce additional power. Alternating current voltage sources
+		look similar to the DC source pictured, but their voltage <i>v</i> is represented by a periodic function of time that could be
+		positive or negative at any given time. Typically the voltage of an AC voltage source is represented by a sine function. </p>
+		<br>
+		<address>
+		Website designed by Andres Torres as part of a CS1100 lab project: <A href="http://cobweb.cs.uga.edu/~cs1100/lab/project/WebPageProject2018.pdf">link here</A>
+		<br>
+		Go dawgs! <s>This project was definitely not made the day it is due</s>
+		</address>
+		
+		
